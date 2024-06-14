@@ -20,6 +20,10 @@ nav a {
     border: 1px solid #f396aaa8;
 }
 .text-centrado{
+    text-align: left;
+}
+
+.text-centrado1{
     text-align: center;
 }
 .fondo{
@@ -33,7 +37,7 @@ nav a {
 /* Selector por ID */
 #contacto {
     text-align: center; /* Alineación de texto centrado */
-    text-decoration: underline; /* Decoración de texto subrayado */
+    text-decoration: center; /* Decoración de texto subrayado */
 }
 
 /* Selector para elemento en línea */
