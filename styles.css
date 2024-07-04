@@ -181,7 +181,7 @@ nav a:hover {
 .main-nav .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f396aab0;
+    background-color: #f396aada;
     min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -198,7 +198,7 @@ nav a:hover {
 }
 
 .main-nav .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #dddddd;
 }
 
 .main-nav .menu:hover .dropdown-content {
@@ -218,7 +218,10 @@ nav a:hover {
     transition: background-color 0.3s, color 0.3s;
 }
 
-header 
+header .home-links a:hover {
+    background-color: #74125b;
+    color: #f396aa;
+}
 
 header .home-links li:hover,
 header .home-links a:hover{
@@ -231,7 +234,3 @@ header .home-links a:hover{
     }
 }
 
-.home-links a:hover {
-    background-color: #74125b;
-    color: #f396aa;
-}
