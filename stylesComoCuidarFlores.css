@@ -58,15 +58,6 @@ body {
     text-align: justify;
 }
 
-.enlace {
-    color: #74125b;
-    text-align: center;
-    background-color: #f396aab0;
-    border-radius: 20px;
-    padding: 10px;
-    border: 1px solid #74125b;
-}
-
 .elemento {
             color: blue;
     font-size: 16px;
