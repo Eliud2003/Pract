@@ -130,6 +130,12 @@ footer {
     margin-top: 20px;
 }
 
+/* Selector por ID */
+#contacto {
+    text-align: center; /* Alineación de texto centrado */
+    text-decoration: underline; /* Decoración de texto subrayado */
+}
+
 nav a:hover {
     background-color: #74125b;
     color: #f396aa;
