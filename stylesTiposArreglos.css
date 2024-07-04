@@ -64,8 +64,7 @@ img {
     margin-right: auto;
 }
 
-
-.imgFormato[src*="flores"] {
+.imgFormato{
     width: 390px;
     height: 260px;
     border-radius: 5%;
