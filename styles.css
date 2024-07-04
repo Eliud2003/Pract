@@ -31,8 +31,16 @@ nav a {
     
 }
 .video{
+    
     border: 20px solid #f396aaa8;
     border-radius: 20px;
+    
+}
+.navega{
+    
+    border: 20px solid #f396aa00;
+    border-radius: 100px;
+    background-color: #f396aa65;
 }
 
 /* Selector por ID */
