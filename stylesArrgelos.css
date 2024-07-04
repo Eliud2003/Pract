@@ -63,7 +63,7 @@ span.important {
 /* Selector combinador */
 
 /* Selector de atributos para imágenes */
-img[src] {
+.imgn{
     width: 150px; /* Ancho */
     height: 150px; /* Alto */
     border-radius: 50%; /* Radio del borde */
