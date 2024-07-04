@@ -1,43 +1,49 @@
-/* Selector universal */
 * {
     color: #74125b; /* Color de fuente diferente de negro */
     font-style: italic; /* Fuente en itálicas */
 }
+
 body {
     background-color: #f396aa5b;
-    ;
-    
 }
+
 .home {
     background-color: #f396aab0;
     border-radius: 20px;
     text-align: center;
-    border: 1px solid #f396aaa8;  
-    
+    border: 1px solid #f396aaa8;
 }
 
-/* Estilo para los enlaces */
+nav {
+    position: fixed; /* Hacer que el nav siga al hacer scroll */
+    top: 0;
+    width: 100%;
+    background-color: #f396aa;
+    z-index: 1000;
+    border: 20px solid #f396aa;       
+    background-color: #f396aa;
+}
+
 nav a {
-    padding: 10px;    
+    padding: 10px;
     border-radius: 10px;
     border: 1px solid #f396aaa8;
-    
 }
-.text-centrado{
+
+.text-centrado {
     text-align: center;
 }
-.fondo{
+
+.fondo {
     background-color: #f396aaa8;
-    
 }
-.video{
-    
+
+.video {
     border: 20px solid #f396aaa8;
     border-radius: 20px;
-    
 }
-.navega{
-    
+
+.navega {
     border: 20px solid #f396aa00;
     border-radius: 100px;
     background-color: #f396aa65;
@@ -55,11 +61,8 @@ span.important {
     text-transform: capitalize; /* Transformación del texto a capitalizado */
 }
 
-/* Selector combinador */
-
-
 /* Selector de atributos para imágenes */
-img[src] {
+.imgan{
     width: 150px; /* Ancho */
     height: 150px; /* Alto */
     border-radius: 50%; /* Radio del borde */
@@ -68,20 +71,20 @@ img[src] {
 iframe {
     display: block;
     margin: 0 auto;
-    
 }
 
 audio {
     display: block;
     margin: 0 auto;
 }
+
 .centrar-tabla {
     margin-left: auto;
     margin-right: auto;
     border: 3px solid #f396aab0; /* Opcional, para visualizar la tabla */
 }
 
-.ttabla{
+.ttabla {
     font-size: 22px; /* Tamaño de fuente personalizado */
     background-color: #f2f2f2; /* Color de fondo de los encabezados */
     padding: 10px; /* Espaciado interno de las celdas */
@@ -90,15 +93,16 @@ audio {
     text-align: center;
     border: 1px solid #f396aaa8;
 }
-.dtabla{
+
+.dtabla {
     font-size: 16px; /* Tamaño de fuente personalizado */
     background-color: #f2f2f2; /* Color de fondo de los encabezados */
-    padding: 10px; /* Espaciado interno de las celdas */    
+    padding: 10px; /* Espaciado interno de las celdas */
     border-radius: 20px;
     text-align: center;
     border: 2px solid #f396aaa8;
-
 }
+
 .bordes {
     margin-top: 10px;
     margin-right: 25px;
@@ -106,3 +110,29 @@ audio {
     margin-left: 25px;
 }
 
+.image-text-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.image-text-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
+    background: rgba(187, 19, 19, 0.301); /* Fondo semi-transparente */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    backdrop-filter: blur(5px); /* Desenfoque del fondo */
+}
