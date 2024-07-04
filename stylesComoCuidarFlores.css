@@ -71,6 +71,9 @@ body {
 .imgFormato[src*="flores"] {
     width: 390px;
     height: 260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 5%;
 }
 
