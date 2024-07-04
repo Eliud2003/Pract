@@ -3,6 +3,15 @@
     font-style: italic; /* Fuente en itálicas */
 }
 
+header {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #f19eb0d7;
+    border-radius: 20PX;
+}
+
 body {
     background-color: #f396aa5b;
 }
@@ -116,7 +125,9 @@ audio {
     display: inline-block;
     width: 100%;      
 }
-
+.bordesima{
+    border-radius: 20px;
+}
 .image-text-container img {
     display: block;
     width: 100%;
@@ -205,6 +216,19 @@ nav a:hover {
     border: 1px solid #74125b;
     border-radius: 10px;
     transition: background-color 0.3s, color 0.3s;
+}
+
+header 
+
+header .home-links li:hover,
+header .home-links a:hover{
+    animation: scaleA 0.3s forwards ;
+}
+
+@keyframes scaleA{
+    to {
+        transform: scale(1.1);
+    }
 }
 
 .home-links a:hover {
