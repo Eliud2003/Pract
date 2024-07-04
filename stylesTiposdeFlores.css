@@ -106,21 +106,28 @@ img {
        
 }
 
-
-header {
-    text-align: center;
-    padding: 20px;
-}
-
 nav {
-    margin: 10px;
-    text-align: center;
+    position: fixed; /* Hacer que el nav siga al hacer scroll */
+    top: 0;
+    width: 100%;
+    background-color: #f396aa;
+    z-index: 1000;
+    border-bottom: 2px solid #74125b;       
 }
 
 nav a {
-    margin: 0 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #f396aaa8;
     text-decoration: none;
-    color: #333;
+    color: #74125b;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #f396aaa8;
 }
 
 table {
@@ -171,6 +178,7 @@ nav a:hover {
 
 .main-nav .menu {
     position: relative;
+    width: 200px;
 }
 
 .main-nav .dropbtn {
@@ -192,7 +200,7 @@ nav a:hover {
     display: none;
     position: absolute;
     background-color: #f396aada;
-    min-width: 200px;
+    min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     border-radius: 10px;
@@ -243,4 +251,3 @@ header .home-links a:hover{
         transform: scale(1.1);
     }
 }
-
