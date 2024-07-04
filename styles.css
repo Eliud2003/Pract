@@ -68,6 +68,7 @@ nav a {
     background-color: #f396aa65;
 }
 
+/* Nevesario para Como cuidar flores*/
 .titulo {
     color: #74125b;
     font-style: italic;
@@ -82,6 +83,15 @@ nav a {
     color: #74125b;
     font-style: italic;
     text-align: justify;
+}
+
+.imgFormato[src*="flores"] {
+    width: 390px;
+    height: 260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
 }
 
 /* Selector por ID */
