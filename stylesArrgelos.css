@@ -16,7 +16,14 @@ body {
     padding: 20px; /* Espacio dentro del borde del elemento */
 }
 
-
+header {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #f19eb0d7;
+    border-radius: 20PX;
+}
 /* Estilo para los enlaces */
 nav a {
     padding: 6px;
@@ -98,13 +105,19 @@ iframe {
     margin-bottom: 25px;
     margin-left: 25px;
 }
+nav a:hover {
+    background-color: #74125b;
+    color: #f396aa;
+}
 .main-nav {
-    text-align: left;
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 
 .main-nav .menu {
-    display: inline-block;
+    position: relative;
 }
 
 .main-nav .dropbtn {
@@ -114,15 +127,22 @@ iframe {
     border: 1px solid #74125b;
     border-radius: 20px;
     cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.main-nav .dropbtn:hover {
+    background-color: #74125b;
+    color: #f396aa;
 }
 
 .main-nav .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f396aab0;
+    background-color: #f396aada;
     min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    border-radius: 10px;
 }
 
 .main-nav .dropdown-content a {
@@ -131,12 +151,42 @@ iframe {
     text-decoration: none;
     display: block;
     text-align: left;
+    transition: background-color 0.3s;
 }
 
 .main-nav .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #dddddd;
 }
 
 .main-nav .menu:hover .dropdown-content {
     display: block;
+}
+
+.home-links {
+    display: flex;
+    gap: 10px;
+}
+
+.home-links a {
+    padding: 10px 15px;
+    background-color: #f396aab0;
+    border: 1px solid #74125b;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header .home-links a:hover {
+    background-color: #74125b;
+    color: #f396aa;
+}
+
+header .home-links li:hover,
+header .home-links a:hover{
+    animation: scaleA 0.3s forwards ;
+}
+
+@keyframes scaleA{
+    to {
+        transform: scale(1.1);
+    }
 }
