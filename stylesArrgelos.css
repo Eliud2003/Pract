@@ -12,7 +12,7 @@ body {
     border-radius: 20px;
     text-align: center;
     border: 4px solid #f396aaa8;
-    margin: 35px; /* Espacio alrededor del elemento */
+    margin: 3px; /* Espacio alrededor del elemento */
     padding: 20px; /* Espacio dentro del borde del elemento */
 }
 
