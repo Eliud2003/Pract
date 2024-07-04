@@ -24,9 +24,9 @@ header {
 
 .bordes {
     margin-top: 10px;
-    margin-right: 20px;
+    margin-right: 25px;
     margin-bottom: 10px;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 body {
@@ -50,7 +50,7 @@ body {
 }
 
 .elemento {
-            color: blue;
+    color: blue;
     font-size: 16px;
 }
 
@@ -120,6 +120,7 @@ footer {
     text-align: center; /* Alineación de texto centrado */
     text-decoration: underline; /* Decoración de texto subrayado */
 }
+
 
 nav a:hover {
     background-color: #74125b;
