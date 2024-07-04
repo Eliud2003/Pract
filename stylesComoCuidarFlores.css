@@ -29,6 +29,12 @@ header {
     margin-left: 25px;
 }
 
+.navega {
+    border: 20px solid #f396aa00;
+    border-radius: 100px;
+    background-color: #f396aa65;
+}
+
 body {
     background-color: #f396aa5b;
 }
