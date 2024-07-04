@@ -10,12 +10,7 @@ header {
     z-index: 1000;
     background-color: #f19eb0d7;
     border-radius: 20px;
-    margin-bottom: 20px; /* Añadido margen inferior */
 }
-
-main {
-    margin-top: 10px; /* Añadido margen superior */
-} 
 
 .home {
     color: #74125b;
@@ -39,6 +34,8 @@ body {
     border-radius: 20px;
     text-align: center;
     border: 1px solid #74125b;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .parrafos {
@@ -133,11 +130,12 @@ footer {
     margin-top: 20px;
 }
 
+section {
+    margin-top: 10px; /* Reduce el margen superior de cada sección */
+}
+
 .centered-text {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -315%);
+    position: relative;
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 40px;
@@ -147,7 +145,10 @@ footer {
     padding: 10px 20px; 
     border-radius: 20px; 
     backdrop-filter: blur(5px); 
+    text-align: center;
+    margin-bottom: -40px;
 }
+
 nav a:hover {
     background-color: #74125b;
     color: #f396aa;
