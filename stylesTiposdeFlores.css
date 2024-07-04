@@ -65,15 +65,6 @@ header {
     text-align: justify;
 }
 
-.enlace {
-    color: #74125b;
-    text-align: center;
-    background-color: #f396aab0;
-    border-radius: 20px;
-    padding: 10px;
-    border: 1px solid #74125b;
-}
-
 .video{
     border: 20px solid #f396aaa8;
     border-radius: 20px;
