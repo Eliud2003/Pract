@@ -64,11 +64,21 @@ span.important {
 
 /* Selector de atributos para imágenes */
 .imgn{
-    width: 150px; /* Ancho */
-    height: 150px; /* Alto */
-    border-radius: 50%; /* Radio del borde */
+    background-image: url("./imagenes/Arreglos\ Florales.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px; /* Ancho */
+    height: 300px; /* Alto */
+    border-radius: 20%; /* Radio del borde */
 }
+.contenedor-imgn{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 25px;
 
+}
 iframe {
     display: block;
     margin: 35px auto; /* Espacio arriba y abajo del iframe */
@@ -190,3 +200,4 @@ header .home-links a:hover{
         transform: scale(1.1);
     }
 }
+
