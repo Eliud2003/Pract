@@ -9,8 +9,13 @@ header {
     top: 0;
     z-index: 1000;
     background-color: #f19eb0d7;
-    border-radius: 20PX;
+    border-radius: 20px;
+    margin-bottom: 20px; /* Añadido margen inferior */
 }
+
+main {
+    margin-top: 20px; /* Añadido margen superior */
+} 
 
 .home {
     color: #74125b;
@@ -56,20 +61,13 @@ body {
     font-weight: bold;
     text-transform: capitalize;
 }
-
-img {
-    display: block; 
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.imgFormato{
+.imgan{
     width: 390px;
     height: 260px;
     border-radius: 5%;
     display: block; 
     margin-left: auto;
-    margin-right: auto;   
+    margin-right: auto; 
 }
 
 .ramos-section .imagenes {
@@ -87,6 +85,7 @@ img {
     text-align: center;
     border: 1px solid #74125b;
 }
+
 
 nav {
     position: fixed; /* Hacer que el nav siga al hacer scroll */
@@ -111,13 +110,11 @@ nav a {
     border-radius: 10px;
     border: 1px solid #f396aaa8;
 }
+
 .text-centrado{
     text-align: center;
 }
 
-.bordesima{
-    border-radius: 20px;
-}
 
 iframe {
     display: block;
@@ -138,18 +135,18 @@ footer {
 
 .centered-text {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -300%);
+    transform: translate(-50%, -315%);
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 40px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     white-space: nowrap;
-    background: rgba(131, 8, 8, 0.212); /* Fondo semi-transparente */
-    padding: 10px 20px; /* Espaciado interno */
-    border-radius: 20px; /* Bordes redondeados */
-    backdrop-filter: blur(5px); /* Desenfoque del fondo */
+    background: rgba(131, 8, 8, 0.212); 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    backdrop-filter: blur(5px); 
 }
 nav a:hover {
     background-color: #74125b;
@@ -169,7 +166,7 @@ nav a:hover {
 .main-nav .dropbtn {
     background-color: #f396aab0;
     color: #74125b;
-    padding: 15px;
+    padding: 10px;
     border: 1px solid #74125b;
     border-radius: 20px;
     cursor: pointer;
@@ -236,4 +233,3 @@ header .home-links a:hover{
         transform: scale(1.1);
     }
 }
-
