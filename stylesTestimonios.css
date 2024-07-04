@@ -14,7 +14,7 @@
 
 body {
     background-color: #f396aa5b;
-    color: #74125b;
+    color: #74125b; /* Asegura que el texto sea visible */
 }
 .titulo {
     color: #74125b;
@@ -34,9 +34,12 @@ body {
 
 header {
     background-color: #f396aab0;
-    color: #74125b; /* Cambiado a #74125b para que sea visible */
-    padding: 60px 0;
+    height: 50px;
+    padding: 50px;
+    margin: 20px;
     text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .enlace {
@@ -53,10 +56,12 @@ header {
 nav {
     position: fixed;
     top: 0;
-    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 30px;
+    margin: 20px;
     background-color: #f396aa;
-    z-index: 1000;
-    border-bottom: 3px solid #74125b;       
+    z-index: 1000;       
 }
 
 nav a {
