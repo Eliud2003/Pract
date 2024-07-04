@@ -14,7 +14,7 @@ header {
 }
 
 main {
-    margin-top: 20px; /* Añadido margen superior */
+    margin-top: 10px; /* Añadido margen superior */
 } 
 
 .home {
@@ -135,7 +135,7 @@ footer {
 
 .centered-text {
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -315%);
     color: rgb(255, 255, 255);
