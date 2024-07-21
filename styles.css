@@ -1,6 +1,7 @@
 * {
     color: #74125b; /* Color de fuente diferente de negro */
     font-style: italic; /* Fuente en itálicas */
+    
 }
 
 header {
@@ -173,11 +174,11 @@ audio {
 .centered-text {
     position: absolute;
     top: 40%;
-    left: 50%;
+    left: 30%;
     transform: translate(-50%, -100%);
     color: rgb(255, 255, 255);
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     white-space: nowrap;
     background: rgba(131, 8, 8, 0.212); /* Fondo semi-transparente */
@@ -201,7 +202,7 @@ nav a:hover {
 }
 
 .main-nav .dropbtn {
-    background-color: #f396aab0;
+    background-color: #f396aa;
     color: #74125b;
     padding: 15px;
     border: 1px solid #74125b;
@@ -254,20 +255,45 @@ nav a:hover {
     border-radius: 10px;
     transition: background-color 0.3s, color 0.3s;
 }
-
 header .home-links a:hover {
     background-color: #74125b;
     color: #f396aa;
 }
-
 header .home-links li:hover,
 header .home-links a:hover{
     animation: scaleA 0.3s forwards ;
 }
-
 @keyframes scaleA{
     to {
         transform: scale(1.1);
     }
 }
+.framelogo{
+    position:absolute ;
+    top: 20px;
+    left: 950px;
+    background-color: #e9b7c2;
+    border-radius: 10%;
+}
+.frameimgbanner{
+    background-image: url("./imagenes/banner2.jpg");    
+    background-size: cover;
+    width: 900px; /* Ancho */
+    height: 120px; /* Alto */
+    border-radius: 20px; /* Radio del borde */
+}
+.framemenu{
+    position:absolute ;
+    top: 10px;
+    left: 0px;
+    
+}
+.framebtn{
+    position:absolute ;
+    top: 200px;
+    left: 950px;
+    background-color: #e9b7c2;
+    border-radius: 10%;
+}
+
 
