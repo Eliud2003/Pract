@@ -173,7 +173,7 @@ audio {
 
 .centered-text {
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 30%;
     transform: translate(-50%, -100%);
     color: rgb(255, 255, 255);
@@ -279,7 +279,7 @@ header .home-links a:hover{
     background-image: url("./imagenes/banner2.jpg");    
     background-size: cover;
     width: 900px; /* Ancho */
-    height: 120px; /* Alto */
+    height: 90px; /* Alto */
     border-radius: 20px; /* Radio del borde */
 }
 .framemenu{
