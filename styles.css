@@ -405,6 +405,19 @@ a {
     margin-left: 10%;
 }
 /*------------------------------------------------------------*/
+.imganthree{
+    width: 390px;
+    height: 260px;
+    border-radius: 5%;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+.ramos-section .imagenes {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+}
 /*------------------------------------------------------------*/
 /*------------------------------------------------------------*/
 
