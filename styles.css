@@ -145,7 +145,7 @@ audio {
     background-color: #f396aab0;
     border-radius: 20px;
     text-align: center;
-    border: 1px solid #f396aaa8;
+    border: 1px solid #f396aa00;
 }
 
 .dtabla {
@@ -154,7 +154,7 @@ audio {
     padding: 10px; /* Espaciado interno de las celdas */
     border-radius: 20px;
     text-align: center;
-    border: 2px solid #f396aaa8;
+    border: 1px solid #f396aa00;
 }
 
 .bordes {
@@ -277,7 +277,7 @@ header .home-links a:hover{
 }
 .framelogo {
     position: absolute;
-    top: -11px;
+    top: -4px;
     left: 920px;
     background-color: #e9b7c2;
     border-radius: 10px;
@@ -301,6 +301,7 @@ header .home-links a:hover{
     font-family: 'Arial', sans-serif;
     font-size: 1.2em;
     color: #333;
+    
 }
 
 
@@ -320,7 +321,7 @@ header .home-links a:hover{
 
 .framebtn {
     position: absolute;
-    top: 10px;
+    top: 17px;
     left: 1140px;
     background-color: #e9b7c2;
     border-radius: 10px;
@@ -453,7 +454,7 @@ table {
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #74125b;
+    border: 2px solid #74125c00;
     text-align: center;
 }
 .dtable{
@@ -462,7 +463,7 @@ table {
     padding: 1px; /* Espaciado interno de las celdas */    
     border-radius: 1px;
     text-align: center;
-    border: 3px solid #f396aaa8;
+    border: 3px solid #f396aa;
 
 }
 
