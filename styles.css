@@ -467,6 +467,21 @@ table {
 
 }
 
+.imgna{
+    background-image: url("./imagenes/Arreglos\ Florales.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px; /* Ancho */
+    height: 300px; /* Alto */
+    border-radius: 20%; /* Radio del borde */
+}
+.contenedor-imgna{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 25px;
+
 /*------------------------------------------------------------*/
 
 
