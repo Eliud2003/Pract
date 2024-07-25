@@ -424,7 +424,48 @@ a {
     justify-content: center; 
     gap: 10px; 
 }
+.centrar-ti {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
+    background: rgba(131, 8, 8, 0.212); /* Fondo semi-transparente */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 20px; /* Bordes redondeados */
+    backdrop-filter: blur(5px); /* Desenfoque del fondo */
+}
+.frame-ban{
+    background-image: url("./imagenes/banner2.jpg");    
+    background-size: cover;
+    width: 900px; /* Ancho */
+    height: 90px; /* Alto */
+    border-radius: 20px; /* Radio del borde */
+    margin: 0 auto;
+}
 /*------------------------------------------------------------*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #74125b;
+    text-align: center;
+}
+.dtable{
+    font-size: 16px; /* Tamaño de fuente personalizado */
+    background-color: #f2f2f2; /* Color de fondo de los encabezados */
+    padding: 1px; /* Espaciado interno de las celdas */    
+    border-radius: 1px;
+    text-align: center;
+    border: 3px solid #f396aaa8;
+
+}
+
 /*------------------------------------------------------------*/
 
 
