@@ -2,18 +2,7 @@
 * {
     color: #74125b; /* Color de fuente diferente de negro */
     font-style: italic; /* Fuente en itálicas */
-}
-body {
-    background-color: #f396aa5b;
-    margin: 20px; /* Espacio alrededor del cuerpo del documento */
-}
-.home {
-    background-color: #e6b6c0b0;
-    border-radius: 20px;
-    text-align: center;
-    border: 4px solid #f396aaa8;
-    margin: 3px; /* Espacio alrededor del elemento */
-    padding: 20px; /* Espacio dentro del borde del elemento */
+    
 }
 
 header {
@@ -21,31 +10,67 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: #f19eb0d7;
+    background-color: #f19eb0;
     border-radius: 20PX;
 }
-/* Estilo para los enlaces */
-nav a {
-    padding: 6px;
-    border-radius: 10px;
-    border: 15px solid #f396aaa8;
-    margin: 10px; /* Espacio alrededor del enlace */
-    display: inline-block; /* Para aplicar margen correctamente */
-}
-.text-centrado{
-    text-align: left;
+
+.home {
+    color: #74125b;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #f396aab0;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #74125b;
 }
 
-.text-centrado1{
+body {
+    background-color: #f396aa5b;
+}
+
+nav {
+    position: fixed; /* Hacer que el nav siga al hacer scroll */
+    top: 0;
+    width: 100%;
+    background-color: #f396aa;
+    z-index: 1000;
+    border-bottom: 2px solid #74125b;       
+}
+
+nav a {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #f396aaa8;
+    text-decoration: none;
+    color: #74125b;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #f396aaa8;
+}
+
+.text-centrado {
     text-align: center;
 }
-.fondo{
+
+.fondo {
     background-color: #f396aaa8;
 }
-.video{
-    border: 0px solid #f396aaa8;
+
+.video {
+    border: 20px solid #f396aaa8;
     border-radius: 20px;
 }
+
+.navega {
+    border: 20px solid #f396aa00;
+    border-radius: 100px;
+    background-color: #f396aa65;
+}
+
 
 /* Selector por ID */
 #contacto {
@@ -84,6 +109,11 @@ iframe {
     margin: 35px auto; /* Espacio arriba y abajo del iframe */
 }
 
+audio {
+    display: block;
+    margin: 0 auto;
+}
+
 .centrar-tabla {
     margin-left: auto;
     margin-right: auto;
@@ -92,28 +122,51 @@ iframe {
     margin-bottom: 20px; /* Espacio abajo de la tabla */
 }
 
+
 .ttabla {
     font-size: 22px; /* Tamaño de fuente personalizado */
     background-color: #f2f2f2; /* Color de fondo de los encabezados */
     padding: 10px; /* Espaciado interno de las celdas */
     background-color: #f396aab0;
-    border-radius: 0px;
+    border-radius: 20px;
     text-align: center;
-    border: 0px solid #f396aaa8;
+    border: 1px solid #f396aaa8;
 }
+
 .dtabla {
     font-size: 16px; /* Tamaño de fuente personalizado */
     background-color: #f2f2f2; /* Color de fondo de los encabezados */
-    padding: 10px; /* Espaciado interno de las celdas */    
+    padding: 10px; /* Espaciado interno de las celdas */
     border-radius: 20px;
     text-align: center;
-    border: 0px solid #f396aaa8;
+    border: 2px solid #f396aaa8;
 }
+
 .bordes {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-right: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     margin-left: 25px;
+}
+
+.bordesima{
+    border-radius: 20px;
+}
+
+
+.centered-text {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%, -100%);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
+    background: rgba(131, 8, 8, 0.212); /* Fondo semi-transparente */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 20px; /* Bordes redondeados */
 }
 nav a:hover {
     background-color: #74125b;
@@ -131,7 +184,7 @@ nav a:hover {
 }
 
 .main-nav .dropbtn {
-    background-color: #f396aab0;
+    background-color: #f396aa;
     color: #74125b;
     padding: 15px;
     border: 1px solid #74125b;
@@ -172,9 +225,10 @@ nav a:hover {
     display: block;
 }
 
+
 .home-links {
-    display: flex;
-    gap: 10px;
+display:flex;
+gap: 10px;
 }
 
 .home-links a {
@@ -200,4 +254,136 @@ header .home-links a:hover{
         transform: scale(1.1);
     }
 }
+.framelogo {
+    position: absolute;
+    top: -11px;
+    left: 920px;
+    background-color: #e9b7c2;
+    border-radius: 10px;
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid #cccccc00;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.framelogo img {
+    margin-right: 10px;
+    width: 35px; /* Adjusted for better visibility */
+    height: auto;
+}
+
+.framelogo p {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+    color: #333;
+}
+
+
+.frameimgbanner{
+    background-image: url("./imagenes/banner2.jpg");    
+    background-size: cover;
+    width: 900px; /* Ancho */
+    height: 90px; /* Alto */
+    border-radius: 20px; /* Radio del borde */
+}
+.framemenu{
+    position:absolute ;
+    top: 85px;
+    left: 0px;
+    
+}
+
+.framebtn {
+    position: absolute;
+    top: 10px;
+    left: 1140px;
+    background-color: #e9b7c2;
+    border-radius: 10px;
+    padding: 20px; /* Add padding to the container */
+    display: flex; /* Use flexbox for horizontal alignment */
+    gap: 10px; /* Space between buttons */
+}
+
+.framebtn button {
+    background-color: #a14189; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add padding */
+    font-size: 1em; /* Increase font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.framebtn button:hover {
+    background-color: #74125b; /* Darker blue on hover */
+}
+
+footer {
+    background-color: #e9b7c2;
+    color: #fff;
+    padding: 20px;
+}
+
+.row {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-md-4 {
+    background-color: #e9b7c2;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #74125b;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.col-md-4 .social-links {
+    display: flex; 
+    gap: 5px; 
+    justify-content: center;
+
+}
+
+.col-md-4 .social-links a {
+    display: flex;
+    align-items: center;
+}
+
+.col-md-4 .social-links a i {
+    margin-right: 5px; 
+}
+
+.col-md-4 a {
+    
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.col-md-4 a i {
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+    
+}
+
 
