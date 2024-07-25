@@ -135,7 +135,7 @@ audio {
 .centrar-tabla {
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid #f396aab0; /* Opcional, para visualizar la tabla */
+    border: 3px solid #f396aa00; /* Opcional, para visualizar la tabla */
 }
 
 .ttabla {
@@ -154,7 +154,7 @@ audio {
     padding: 10px; /* Espaciado interno de las celdas */
     border-radius: 20px;
     text-align: center;
-    border: 1px solid #f396aa00;
+    border: 2px solid #f396aa00;
 }
 
 .bordes {
