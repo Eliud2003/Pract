@@ -200,3 +200,11 @@ nav a:hover {
 .main-nav .menu:hover .dropdown-content {
     display: block;
 }
+
+.framelogo{
+    position:absolute ;
+    top: 20px;
+    left: 950px;
+    background-color: #e9b7c2;
+    border-radius: 10%;
+}
