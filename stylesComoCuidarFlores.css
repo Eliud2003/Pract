@@ -309,7 +309,7 @@ header .home-links a:hover{
 
 
 .frameimgbanner{
-    background-image: url("../imagenes/banner2.jpg");    
+    background-image: url("imagenes/banner2.jpg");    
     background-size: cover;
     width: 900px; /* Ancho */
     height: 90px; /* Alto */
