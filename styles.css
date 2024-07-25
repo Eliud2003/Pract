@@ -442,6 +442,24 @@ a {
     margin: 0 auto;
 }
 /*------------------------------------------------------------*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #74125b;
+    text-align: center;
+}
+.dtable{
+    font-size: 16px; /* Tamaño de fuente personalizado */
+    background-color: #f2f2f2; /* Color de fondo de los encabezados */
+    padding: 1px; /* Espaciado interno de las celdas */    
+    border-radius: 1px;
+    text-align: center;
+    border: 3px solid #f396aaa8;
+
+}
+
 /*------------------------------------------------------------*/
 
 
